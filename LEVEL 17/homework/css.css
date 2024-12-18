@@ -22,14 +22,19 @@ a:hover{
 }
 
 
-.blur-out-expand{
+.h1{
+  letter-spacing: 2px;
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 2em;
   color: #3498db;
+  background: linear-gradient(45deg,#fd0000, rgb(225, 0, 225) aqua);
+  background-clip: text;
+  
   
 
 }
+
 
 img{
     margin-left: 590px;
@@ -38,6 +43,7 @@ img{
     height: 150px;
     object-fit: cover;
     border: 2px solid #000;
+    clip-path: circle(50%);
 }
 
 .erekle{
@@ -113,3 +119,7 @@ div{
     color:  yellow;
     background-color: blue;
 }
+
+
+
+

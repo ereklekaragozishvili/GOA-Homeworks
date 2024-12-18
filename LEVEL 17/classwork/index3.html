@@ -1,0 +1,33 @@
+<!-- შექმენით form'ი რომელიც მომხმარებელს აარჩევინებს კარტით იხდის თუ ქეშით. -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>გადახდის ფორმა</title>
+</head>
+<body>
+  <h1>გადახდის ფორმა</h1>
+  <form action="/submit" method="post">
+    <p>გთხოვთ, აირჩიოთ გადახდის მეთოდი:</p>
+
+    <!-- კარტით გადახდა -->
+    <div>
+      <input type="radio" id="card" name="payment_method" value="card" required>
+      <label for="card">კარტით გადახდა</label>
+    </div>
+    
+    <!-- ნაღდი ფულით გადახდა -->
+    <div>
+      <input type="radio" id="cash" name="payment_method" value="cash" required>
+      <label for="cash">ნაღდი ფულით გადახდა</label>
+    </div>
+    
+   
+    <div>
+      <button type="submit">გაგზავნა</button>
+    </div>
+  </form>
+</body>
+</html>

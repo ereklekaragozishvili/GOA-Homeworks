@@ -1,0 +1,41 @@
+<!-- შექმენით form'ი placeholder'ების გამოყენებით რომელშიც
+     მომხმარებელს შემოატანინებთ სახელს, დაბადების წელს, მეილს და პაროლს. -->
+
+
+     <!DOCTYPE html>
+     <html lang="ka">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>ფორმა</title>
+     </head>
+     <body>
+       <h1>მომხმარებლის მონაცემების ფორმა</h1>
+       <form action="/submit" method="post">
+         
+         <div>
+           <input type="text" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required>
+         </div>
+         
+        
+         <div>
+           <input type="number" name="birth_year" placeholder="შეიყვანეთ დაბადების წელი" min="1900" max="2024" required>
+         </div>
+         
+         
+         <div>
+           <input type="email" name="email" placeholder="შეიყვანეთ თქვენი ელფოსტა" required>
+         </div>
+         
+         
+         <div>
+           <input type="password" name="password" placeholder="შეიყვანეთ თქვენი პაროლი" required>
+         </div>
+        
+         <div>
+           <button type="submit">გაგზავნა</button>
+         </div>
+       </form>
+     </body>
+     </html>
+     
