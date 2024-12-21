@@ -1,0 +1,61 @@
+body{
+    background-color: blueviolet;
+}
+
+.header{
+    width: 53px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.header:hover{
+    background-color: white;
+
+}
+
+a{
+    color: chocolate;
+    text-decoration: none;
+    
+}
+
+
+.div_header{
+    width: 60px;
+    background-color: aqua;
+    border-radius: 12px;
+   
+}
+
+.div_header:hover{
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+.box_header{
+    width: 70px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.box_header:hover{
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+.h1{
+    text-align: center;
+    text-shadow: 10px 12px 3px red;
+}
+
+
+.img{
+    margin-left: 560px;
+}
+
+img{
+    border-radius: 12px;
+    box-shadow: ;
+}
