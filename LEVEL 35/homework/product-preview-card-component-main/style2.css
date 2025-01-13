@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  width: 240px;
+  height: 200px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.image1 {
+  width: 120px;
+  height: 200px;
+  border-radius: 1px;
+}
+
+.box {
+  transform: translateY(-200px);
+  margin-left: 117px;
+  font-size: 6px;
+  color: lightslategray;
+}
+
+.p1 {
+  margin-top: 12px;
+  margin-left: 15px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+}
+
+.text {
+  transform: translateY(-206px);
+}
+
+.p2 {
+  margin-left: 130px;
+  font-family: "Fraunces", serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.middle-part {
+  transform: translateY(-210px);
+  margin-left: 130px;
+}
+
+.p3 {
+  font-size: 7px;
+  color: grey;
+}
+
+.price {
+  transform: translateY(-208px);
+}
+
+.p4 {
+  margin-left: 130px;
+  color: rgba(8, 97, 8, 0.733);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.number {
+  transform: translateY(-233px);
+}
+
+.p5 {
+  margin-left: 193px;
+  font-size: 6px;
+  color: grey;
+  text-decoration: line-through 0px;
+}
+
+.press {
+  transform: translateY(-223px);
+}
+
+.button {
+  margin-left: 130px;
+  border: none;
+  width: 97px;
+  height: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(5, 158, 5);
+  font-size: 6px;
+}
+
+.button:active {
+  background-color: rgb(3, 82, 3);
+}
+
+

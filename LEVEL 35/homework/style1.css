@@ -1,0 +1,20 @@
+.box {
+  position: absolute;
+  left: 200px;
+}
+
+.box-name {
+  position: fixed;
+  top: 145px;
+}
+
+.conteiner {
+  position: static;
+  left: 100px;
+  
+
+}
+
+.box-last{
+    top: 100px;
+}
