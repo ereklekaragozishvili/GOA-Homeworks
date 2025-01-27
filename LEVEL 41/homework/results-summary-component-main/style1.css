@@ -1,0 +1,13 @@
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 102px;
+  height: 140px;
+  background-color: hsl(252, 100%, 67%) ;
+  border-radius: 8px;
+}
